@@ -32,8 +32,8 @@ class Polygon {
     }
 }
   
-  const polygon = new Polygon([3, 3, 8, 8]);
-  const square = new Polygon([10, 10, 10, 10]);
+  const polygon = new Polygon([2, 2, 4, 4]);
+  const square = new Polygon([2, 2, 2, 2]);
    
   console.log(polygon.perimeter());
   console.log(square.perimeter());
